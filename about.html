@@ -10,6 +10,14 @@
     <!-- Styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
+    @font-face {
+      font-family:"wireframe";
+      src: url("fonts/WIREFRAME.ttf");
+    }
+    @font-face {
+      font-family:"steeltongs";
+      src: url("fonts/SteelTongs.ttf");
+    }
       * {
         margin: 0;
       }
@@ -80,9 +88,12 @@
       }
 
       .copyright {
-        font-size:15px;
+        font-size:20px;
         /*text-align:center;*/
         padding-top:30px;
+        text-transform:uppercase;
+        font-family:"steeltongs", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        letter-spacing: 1px;
       }
       /* Custom container */
       .container-narrow {
@@ -100,10 +111,10 @@
       }
 
       .pagetitle {
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-        text-transform:uppercase;
+        font-family: "wireframe", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        text-transform:lowercase;
         text-align: center;
-        font-size:40px;
+        font-size:60px;
       }
 
       .poster {
@@ -112,6 +123,10 @@
         margin-left:20px; 
         margin-bottom:20px;
       }
+
+      .smalltext {
+        font-size:10px;
+      }
     </style>
   </head>
 
@@ -119,7 +134,7 @@
     <div class="wrapper">
     <div class="container-narrow">
       <div class="lead">
-        <h1 class="pagetitle">About</h1>
+        <h1 class="pagetitle">About next to normal</h1>
         <br>
         <p style="font-size:26px;">May 22-24 at 8pm at the Elliot Programming Center</p>
         <br>
@@ -128,7 +143,7 @@
         <p>NEXT TO NORMAL tells the story of a mother, Diana Goodman, who struggles with bipolar disorder and the effect that her illness has on her family. This contemporary musical is an emotional powerhouse that addresses such issues as grieving a loss, ethics in modern psychiatry, and suburban life. With provocative lyrics and a thrilling score, this musical shows how far two parents will go to keep themselves sane and their family’s world intact.</p>
       </div>
       <div class="copyright">
-        <p>Sponsored by the ASSU, Cardinal Nights, Psychology One Program, and the Stanford Arts Institute</p>
+        <p>Sponsored &nbsp;&nbsp;<span class="smalltext">by</span> &nbsp;&nbsp;the ASSU &nbsp;&nbsp;Cardinal Nights &nbsp;&nbsp;Psychology One Program &nbsp;&nbsp;<span class="smalltext">and the</span> &nbsp;&nbsp;Stanford Arts Institute</p>
       </div>
     </div> <!-- /container -->
     <div class="push"></div> 
